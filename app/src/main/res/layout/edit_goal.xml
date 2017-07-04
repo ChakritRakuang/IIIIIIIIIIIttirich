@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainPagePinkBG"
+    android:scrollbars="none"
+    android:padding="@dimen/mainpageTopPadding"
+    tools:context="com.example.nilecon.ittirich.Fragment.EditGoalFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/goalImg"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/home_img_chaiyapruek"
+                    app:civ_border_color="@color/colorImgThickMainPage"
+                    app:civ_border_width="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:background="@drawable/camera_icon_bg"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_iph_icon_camera2x"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/normalviewSpace"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/editGoalTag"
+                    android:textColor="@color/colortextEditGoalPage"
+                    android:textSize="@dimen/text_normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/normalviewSpace"/>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edittextHint"
+                        android:inputType="textImeMultiLine"
+                        android:background="@color/mainPagePinkBG"
+                        android:textColorHint="@color/colortextEditGoalPage"
+                        android:textColor="@color/colortextEditGoalPage"
+                        android:textSize="@dimen/text_nmini"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_iph_ico_edit2x"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/padding_meduim">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_iph_ico_line2x"/>
+
+                <View
+                    android:layout_width="@dimen/padding_mini"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fillMoneyTag"
+                    android:textColor="@color/colortextEditGoalPage"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_small"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:text="@string/initBudget"
+                    android:textColor="@color/colortextEditGoalPage"
+                    android:textSize="@dimen/text_nmini"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_mini"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_iph_ico_box2x"/>
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center"
+                            android:background="@color/colortextEditGoalPage"
+                            android:layout_marginRight="@dimen/padding_mxlarge"
+                            android:inputType="textImeMultiLine|number"
+                            android:hint="@string/edittextMoney"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/edittextMoney"
+                            android:textSize="@dimen/normal_text"/>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/THB"
+                        android:textColor="@color/colortextEditGoalPage"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_small"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:text="@string/budgettoSaving"
+                    android:textColor="@color/colortextEditGoalPage"
+                    android:textSize="@dimen/text_nmini"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_mini"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_iph_ico_box2x"/>
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center"
+                            android:background="@color/colortextEditGoalPage"
+                            android:layout_marginRight="@dimen/padding_mxlarge"
+                            android:hint="@string/edittextMoney"
+                            android:inputType="textImeMultiLine|number"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/edittextMoney"
+                            android:textSize="@dimen/normal_text"/>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/THB"
+                        android:textColor="@color/colortextEditGoalPage"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_small"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:text="@string/salary"
+                    android:textColor="@color/colortextEditGoalPage"
+                    android:textSize="@dimen/text_nmini"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_mini"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_iph_ico_box2x"/>
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center"
+                            android:background="@color/colortextEditGoalPage"
+                            android:layout_marginRight="@dimen/padding_mxlarge"
+                            android:hint="@string/edittextMoney"
+                            android:inputType="textImeMultiLine|number"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/edittextMoney"
+                            android:textSize="@dimen/normal_text"/>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/THB"
+                        android:textColor="@color/colortextEditGoalPage"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_small"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:text="@string/myAge"
+                    android:textColor="@color/colortextEditGoalPage"
+                    android:textSize="@dimen/text_nmini"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_mini"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_iph_ico_box2x"/>
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center"
+                            android:background="@color/colortextEditGoalPage"
+                            android:layout_marginRight="@dimen/padding_mxlarge"
+                            android:hint="@string/edittextMoney"
+                            android:textColor="@color/white"
+                            android:inputType="textImeMultiLine|number"
+                            android:textColorHint="@color/edittextMoney"
+                            android:textSize="@dimen/normal_text"/>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/year"
+                        android:textColor="@color/colortextEditGoalPage"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_normal"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/img_iph_btn_ok2x"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

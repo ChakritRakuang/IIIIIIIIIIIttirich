@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/backwardBtn"
+        android:icon="@drawable/img_iph_ico_back2x"
+        android:showAsAction="always"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/settingBtn"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        android:icon="@drawable/img_iph_navbar_icon_gear_2x"/>
+</menu>

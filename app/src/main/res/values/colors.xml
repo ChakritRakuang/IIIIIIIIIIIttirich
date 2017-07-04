@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorImgThickMainPage">#EB87A5</color>
+    <color name="colortextTitleMainPage">#F591AF</color>
+    <color name="colornormaltextMainPage">#919191</color>
+    <color name="white">#FFFFFF</color>
+    <color name="mainPagePinkBG">#FCE4EC</color>
+    <color name="mainPageWhiteBG">#FFFFFF</color>
+    <color name="gray">#2d2d2d</color>
+    <color name="blue">#03a9f4</color>
+    <color name="green">#91cb72</color>
+    <color name="lightGreen">#cbe2a3</color>
+
+
+    <color name="colortextEditGoalPage">#F591AF</color>
+    <color name="edittextMoney">#FFFFFF</color>
+
+    <color name="bgCream">#FEF2E1</color>
+    <color name="bgPink">#ED9CB9</color>
+    <color name="bgGreen">#99C655</color>
+    <color name="bgOrange">#EC844A</color>
+    <color name="bgBlue">#3093B8</color>
+
+    <color name="creamThick">#FFD8B2</color>
+    <color name="pinkThick">#FFD0E8</color>
+    <color name="greenThick">#D2E6A3</color>
+    <color name="orangeThick">#FFC59D</color>
+    <color name="blueThick">#98CEE4</color>
+    <color name="redThick">#FDAFB1</color>
+
+    <color name="grayBG">#868885</color>
+
+    <color name="red3">#F5C8CB</color>
+    <color name="red2">#EF9A9D</color>
+    <color name="red1">#D36D70</color>
+    <color name="red4">#FFCDD2</color>
+    <color name="bgOrut">#f9d9db</color>
+
+    <color name="greenBar">#67BC58</color>
+    <color name="greenbg2">#8BCB7C</color>
+    <color name="greenbg1">#D2F2BE</color>
+    <color name="greenBtn">#3EAF5C</color>
+    <color name="greentabBar">#67BD59</color>
+
+    <color name="skyblue">#87cefa</color>
+    <color name="lightSkyblue">#b1d9f4</color>
+
+    <color name="lightgray">#C0C0C0</color>
+
+    <!--calculator-->
+    <color name="calculatorHoldBtn">#998B7F</color>
+    <color name="txtPinkDialog">#F7B4C8</color>
+    <!--addIcon-->
+    <color name="grayBGaddIcon">#EFF2F0</color>
+    <color name="grayTXTaddIcon">#777A77</color>
+    <!--clock_alert-->
+    <color name="setClockAlertbtn">#EE9D46</color>
+    <!--add_categories_icon-->
+    <color name="edittext_cate">#CAC9C4</color>
+    <color name="yellow">#FEB35F</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nilecon.ittirich">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity android:name=".IttirichMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Acitivity.AddCategoriesIconActivity"></activity>
+        <activity android:name=".Acitivity.AddSubCategoriesIconActivity"></activity>
+        <activity android:name=".Acitivity.BudgetActivity"></activity>
+        <activity android:name=".Acitivity.ClockAlertActivity"></activity>
+        <activity android:name=".Acitivity.EditExpendActivity"></activity>
+        <activity android:name=".Acitivity.EditGoalActivity"></activity>
+        <activity android:name=".Acitivity.EditCategoriesActivity"></activity>
+        <activity android:name=".Acitivity.ExpendCalculatorActivity"></activity>
+        <activity android:name=".Acitivity.VideoACtivity"></activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="b3df6a2a62d8f3bd4728681950b86cd48d9e0be3" />
+
+    </application>
+
+</manifest>

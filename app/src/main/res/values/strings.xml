@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Ittirich</string>
+    <string name="goal_name">ซื้อบ้าน</string>
+    <string name="timer_left">อีก 12 ปี กับอีก 15 วัน</string>
+    <string name="goaltagButton">เป้าหมาย</string>
+    <string name="calendartagButton">บันทึก</string>
+    <string name="missiontagButton">ภารกิจ</string>
+    <string name="concludetagButton">สรุปผล</string>
+
+    <string name="savingDepositProgressbarTag">เงินสะสม</string>
+    <string name="goalProgressbarTag">เป้าหมาย</string>
+    <string name="budgetProgressbarTag">งบใช้จ่าย</string>
+
+    <string name="savingDepositValue">385,630THB</string>
+    <string name="goalPercentage">67.5%</string>
+    <string name="budgetValue">27,000/25,000 THB</string>
+
+    <!--dialog Mission-->
+    <string name="oldLadyTitle">ยายตามจด</string>
+    <string name="oldLadyPercent">30%</string>
+    <string name="oldLadytxt">เข้า application ติดต่อกัน 1 เดือน</string>
+
+    <string name="pigTitle">เป้าหมายมีไว้พุ่งชน</string>
+    <string name="pigPercent">100%</string>
+    <string name="pigtxt">ตั้งเป้าหมายสำหรับการออมเงิน</string>
+
+    <!--Totalresult-->
+    <string name="month">01 ม.ค.- 31 ม.ค.</string>
+    <string name="totalyeartxt">สรุปผลรายปี</string>
+    <string name="income">รายได้</string>
+    <string name="incomeSave">เงินออม</string>
+    <string name="incomeCompare">เปรียเทียบ</string>
+    <string name="expense">รายจ่าย</string>
+
+    <!--buget-->
+    <string name="percentageGoal">70%</string>
+    <string name="remainbudget">งบคงเหลือ     7,500 THB</string>
+    <string name="allbudget">งบทั้งหมด    25,000 THB</string>
+    <string name="needbudget">งบที่จำเป็น</string>
+    <string name="unneedbutdget">งบที่ไม่จำเป็น</string>
+
+    <!--setting-->
+    <string name="alert">แจ้งเตือน</string>
+    <string name="alertTime">ตั้งเวลาแจ้งเตือน</string>
+    <string name="category">หมวดหมู่</string>
+    <string name="quiz">แบบทดสอบ</string>
+    <string name="video">วีดีโอ</string>
+    <string name="AboutUs">เกี่ยวกับเรา</string>
+
+    <!--AboutUs-->
+    <string name="title1">สำนักสมาคมบริษัทหลักทรัพย์ไทย(ASCO)</string>
+    <string name="description1">ถูกปรุกเสกขึ้นเพื่อให้เป็นศูนย์รวมของเหล่าสำนักหลักทรัพย์ทุกประเภท
+        ช่วยส่งเสริมพลังอาคมแก่ตลาดทุนและธุกิจหลักทรัพย์ คุ้มครองและรักษาผลประโยชน์ของวงการธุรกิจหลักทรัพย์
+        พัฒนามาตรฐานในการประกอบธุรกิจ รวมทั้งเพื่อร่วมมือกับสำนักของทางการในการออกข้อกำหนดเกี่ยวกับธุรกิจหลักทรัพย์
+        เพื่อการพัฒนาโครงสร้างพื้นฐานของตลาดทุนไทย
+    </string>
+    <string name="title2">สำนักสถาบันฝึกอบรมสมาคมบริษัทหลักทรัพย์ไทย(ATI)</string>
+    <string name="description2">เป็นสำนักสาขาหนึ่งของสำนักสมาคมบริษัทหลักทรัพย์ไทยถูกปรุกเสกขึ้นมาเพื่อพัฒนาและเผยแพร่
+        ความรู้เกี่ยวกับการลงทุนในหลักทรัพย์ วางแผนการเงินและการลงทุน การดำเนินงานของธุรกิจหลักทรัพย์และเผยแพร่วิชที่
+        เกี่ยวข้องแก่ลูกศิษย์ในสำนักที่เป็นผู้ประกอบวิชาชีพในธุรกิจหลักทรัพย์ สถาบันการเงิน เหล่านักลงทุนในตลาดทุนไทย
+        โดยมีการจัดเทศนาและทดสอบจิตกับเหล่าบรรดาเกจิและลูกศิษย์ลูกหาที่เป็นผู้ประกอบวิชาชีพในธุรกิจหลักทรัพย์ เพื่อให้บรรลุชาญ
+        ในการพัฒนาศักยภาพและมีความพร้อมในการเผยแพร่วิชาคมให้แก่นักลงทุนทั้งหลาย
+    </string>
+    <string name="followTxt">ติดตามสารจากสำนักและรับข้อมูลเพิ่มเติมได้ที่</string>
+    <string name="website">www.asco.or.th และ www.ati-asco.org</string>
+
+    <!--TextQuiz-->
+    <string name="Q1">Q1. ตัวเลือกใดไม่ใช่แหล่งที่มาของรายได้</string>
+    <string name="Q1A">A. การลงทุน</string>
+    <string name="Q1B">B. ค่าจ้างหรือเงินเดือน</string>
+    <string name="Q1C">C. การกู้ยืมธนาคาร</string>
+    <string name="Q1D">D. การประกอบธุรกิจส่วนตัว</string>
+
+    <string name="Q2">Q2. ตัวเลือกต่อไปนีิ้เป็นวิธีที่จะทำให้เรามีรายได้เพิ่มขึ้นอย่างมั่นคง ยกเว้น</string>
+    <string name="Q2A">A. หาช่องทางในการลงทุนในสินทรัพย์ต่างๆ</string>
+    <string name="Q2B">B. มีการพัฒนาความรู้ ความสามารถของตัวเราให้เพิ่มขึ้น</string>
+    <string name="Q2C">C. ตามกระแสสังคม โดยดูสิ่งที่คนอื่นที่ทำแล้วมีรายได้ดี แล้วปฏิบัติตาม</string>
+    <string name="Q2D">D. เลือกที่งานที่เรารักและตั้งใจทำงานเพื่อพัฒนางานให้ดีขึ้น</string>
+
+    <string name="txtD">D. นาย ง มีอาชีพขับมอเตอร์ไซต์รับจ้าง</string>
+    <string name="txtQ5">Q5. แนวทางการเพิ่มรายได้ของใคร่ ที่มีความเหมาะสมน้อยที่สุด</string>
+    <string name="txtA">A. นาย ก เป็นพนักงานบริษัท ใช้เวลาว่างทำงานเพื่อหารายได้พิเศษ</string>
+    <string name="txtB">B. นาย ข เป็นเจ้าของธุรกิจ หมั่นศึกษากลยุทธ์ทางการตลาดใหม่ๆจากผู้เชี่ยวชาญ</string>
+    <string name="txtC">C. นาย ค เป็นพนักงานบริษัท กู้ยืมเงินจากญาติไปฝากให้เพื่อลงทุนในหุ้นร้อนแรงตามข่าวลือ</string>
+    <string name="txtDD">D. นาย ง เป็นนักลงทุน มีการวางแผนการลงทุนที่ดีและเข้าอบรมสัมมนาความรู้ทางการลงทุนอยู่เสมอ</string>
+
+    <!--totalQuiz-->
+    <string name="quizTitle">นักเก็บเงินตัวยง</string>
+    <string name="score">คุณได้คะแนน 13 คะแนน</string>
+    <string name="quizIncome">ด้านการเพิ่มรายได้ 5 คะแนน</string>
+    <string name="quizPay">ด้านการรู้ใช้จ่าย 4 คะแนน</string>
+    <string name="quizDeposit">ด้านการได้เก็บออม 2 คะแนน</string>
+    <string name="quizInvest">ด้านพร้อมลงทุน 2 คะแนน</string>
+
+    <string name="TypeOfPP">คุณคือ"นักเก็บเงินด้วยง"เรื่องการเงินไม่ธรรมดา แต่อย่าพึ่งวางใจไป</string>
+    <string name="IdealDes">คุณมีแนวโน้มที่จะเก็บเงินไม่ค่อยอยู่นะเพราะความรู้เรื่องการออมของคุณยังน้อยศึกษา
+        เคล็ดลับการออมได้จากว๊ด๊โอกระปุกหมูลามหัวจะได้มีเงินสำรองพร้อมใช้ได้ตลอด</string>
+    <string name="knownDes">คุณยังไม่ค่อยมีความรู้เกี่ยวกับเรื่องของการลงทุนจากสินทรัพย์นะ
+    ถ้าอยากให้เงินทำงานแทนคุณสามารถไปศึกษาเคล็ดวิชาการลงทุนได้จากวีดีโอหลวงปู่ ทุน วัดทรัพย์</string>
+
+    <!--editgoal-->
+    <string name="editGoalTag">เป้าหมายในการออม</string>
+    <string name="edittextHint">ซื้อบ้าน/ซื้อรถ..</string>
+    <string name="fillMoneyTag">จำเป็นต้องกรอก</string>
+    <string name="initBudget">เงินออมตั้งตั้น(ถ้่ามีอยู่แล้ว)</string>
+    <string name="budgettoSaving">จำนวนเงินที่ต้องการออม</string>
+    <string name="salary">รายได้ต่อเดือน</string>
+    <string name="myAge">ตอนนี้คุณอายุเท่าไหร่</string>
+    <string name="edittextMoney">0.00</string>
+    <string name="edittextYear">0</string>
+    <string name="THB">THB</string>
+    <string name="year">Year</string>
+
+    <!--expendPage-->
+    <string name="all">รวม</string>
+    <string name="allValueExpend">245.00</string>
+    <string name="allValueIncome">25,000</string>
+    <string name="foodC">ค่าอาหาร</string>
+    <string name="travelC">ค่าเดินทาง</string>
+    <string name="movieC">ค่าดูหนัง</string>
+    <string name="foodCV">120</string>
+    <string name="travelCV">25</string>
+    <string name="movieCV">100</string>
+
+    <!--dialog-->
+    <string name="waring">คำเตือน</string>
+    <string name="onAge0">ตอน </string>
+    <string name="onAge1">คุณจะมีเงินครบถ้าต้องใช้เวลานานขนาดนี้
+        ให้ลูกหลานของคุณ เผากงเต้กมาให้จะไวกว่านะ ลองตั้งเป้าหมายใหม่ เพิ่มรายได้
+        ลดรายจ่ายดูไหม</string>
+    <string name="Age">อายุ 65 ปี </string>
+    <string name="overAge">อายุ 85 ปี</string>
+    <string name="warnDetail">
+        ตอน อายุ 65 ปี คุณจะมีเงินครบถ้าต้องใช้เวลานานขนาดนี้
+        ให้ลูกหลานของคุณ เผากงเต้กมาให้จะไวกว่านะ ลองตั้งเป้าหมายใหม่ เพิ่มรายได้
+        ลดรายจ่ายดูไหม
+    </string>
+    <!--expend-->
+    <string name="remainAllBudget"> 18,273/20,000</string>
+    <string name="remainAllBudgetTag">งบคงเหลือ / งบทั้งหมด</string>
+    <string name="onCalculate">100.0</string>
+    <string name="categories">หมวดหมู่</string>
+    <string name="detailTag">รายละเอียด</string>
+    <string name="movie">ดูหนัง</string>
+    <string name="usuallyExpend">ค่าใช้จ่ายประจำ</string>
+    <string name="nothingBtn">ไม่มี</string>
+    <string name="dailyBtn">รายวัน</string>
+    <string name="weeklyBtn">รายสัปดาห์</string>
+    <string name="monthlyBtn">รายเดือน</string>
+    <string name="saveExpend">บันทึก</string>
+    <string name="expendTitle">รายจ่าย</string>
+    <!--edit_categories-->
+    <string name="Salary">เงินเดือน</string>
+    <string name="Business">ธุรกิจ</string>
+    <string name="Investment">การลงทุน</string>
+    <string name="need">จำเป็น</string>
+    <string name="unneed">ไม่จำเป็น</string>
+    <!--add_icon_edit_categories-->
+    <string name="icon">ICON</string>
+    <string name="NameTag">ชื่อ</string>
+    <string name="BudgetTag">งบใข้จ่าย</string>
+    <string name="ColorTag">สี</string>
+    <string name="accept">ตกลง</string>
+    <string name="subCategories">เพิ่มหมวดย่อย</string>
+    <string name="subCateHint">ชื่อหมวดย่อย...</string>
+    <!--clock_alert-->
+    <string name="setClock">ตั้งเวลา</string>
+    <string name="ClockTitle">ตั้งเวลาแจ้งเตือน</string>
+    <string name="editCategories">ตั้งค่าหมวดหมู่</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

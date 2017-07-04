@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="goalImgWidthHeigh">140dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="normal_dimen_button">10dp</dimen>
+    <dimen name="normal_text">13dp</dimen>
+    <dimen name="Title_text">20dp</dimen>
+    <dimen name="progresbarTag">15dp</dimen>
+    <dimen name="normalviewSpace">10dp</dimen>
+    <dimen name="progressbarviewSpace">15dp</dimen>
+    <dimen name="progressbarThick">3dp</dimen>
+    <dimen name="savingDepositText">18dp</dimen>
+    <dimen name="savingDepositpadding">15dp</dimen>
+    <dimen name="mainpageTopPadding">20dp</dimen>
+
+    <dimen name="padding_mini">5dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_normal">15dp</dimen>
+    <dimen name="padding_meduim">20dp</dimen>
+    <dimen name="padding_large">25dp</dimen>
+    <dimen name="padding_xlarge">30dp</dimen>
+    <dimen name="padding_mxlarge">35dp</dimen>
+    <dimen name="padding_2xlarge">40dp</dimen>
+
+
+    <dimen name="text_nmini">12sp</dimen>
+    <dimen name="text_mini">14sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_normal">18sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_xlarge">22sp</dimen>
+    <dimen name="text_2xlarge">24sp</dimen>
+
+    <dimen name="percentageWH">80dp</dimen>
+    <dimen name="iconWH">45dp</dimen>
+    <dimen name="iconWHx">45dp</dimen>
+
+</resources>
